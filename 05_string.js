@@ -11,3 +11,6 @@ const repoCount = " 100"
 
 console.log(`Hello my name is ${name} and my repoCount is ${repoCount}`)
 // this ${} 
+
+//  $ = signal — "Yahan JS code aa raha hai!"
+// {} = container — "Andar expression/variable wrap karo!"
