@@ -42,15 +42,3 @@ if (true) {
 // *******************************Intresting****************************************************
 
 // is funtion me declaration se pahle acces kar sakte h 
-function addOne(num) {
-    return num + 1
-}
-
-addOne(6);
-
-// isme declaration ke bad hi acces kar sakte h nhi to ye error dega 
-const addTwo = function(num){
-    return num + 2
-}
-
-addTwo(5);
