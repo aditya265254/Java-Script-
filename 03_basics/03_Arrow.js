@@ -3,7 +3,7 @@
 //     price: 999,
 
 //     welcomeMessage: function() {
-//         // this is use for the current conxtact ko refer karta h 
+//         // this is use for the current conxtact ko refer karta h
 //         console.log(`${this.userName}, welcome to website`);
 //         console.log(this)
 //     }
@@ -20,7 +20,6 @@
 
 // aur this ke andar jo ata  vs code me wo empty parethisius ata h
 
-
 // function chai(){
 //     username: "aditya"
 //     console.log(this.username)
@@ -35,7 +34,7 @@
 
 // chai()
 
-// we have only do to make arrow funtion is to place => before curly braces 
+// we have only do to make arrow funtion is to place => before curly braces
 
 // const chai =  () => {
 //     let username = "aditya"
@@ -50,14 +49,14 @@
 
 // console.log(addTwoNumber(9, 10))
 
-// eak aur trike se use karte h isko implicit return 
+// eak aur trike se use karte h isko implicit return
 
 // const addTwoNumber = (num1, num2) =>  num1 + num2
 
 // const addTwoNumber = (num1, num2) => (num1 + num2)
 
-const addTwoNumber = (num1, num2) =>  ({username: "aditya"})
+const addTwoNumber = (num1, num2) => ({ username: "aditya" });
 
+console.log(addTwoNumber(9, 10));
 
-
-console.log(addTwoNumber(9, 10))
+console.log("aditya");
