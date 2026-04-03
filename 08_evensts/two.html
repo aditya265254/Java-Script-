@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code</title>
+</head>
+<body>
+    <h1>Chai aur Code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // setTimeout(function(){
+    //     console.log("aditya")
+    // },200)
+    const sayAditya = function(){
+        console.log("Aditya singh");
+    }
+// set time out kahta h itna time do uske bad mi eak bar apka kam kar dunga
+
+    const changeText = function() {
+        
+    document.querySelector('h1').innerHTML="best js seri"
+    }
+    const changeMe = setTimeout(changeText, 900)
+
+    // eak aur h set interval wo kahta h mujhe time do mi chij ko continus karta hi jaunga 
+
+    // aur agr is event ko hone se rokna h to kise karenge clear time out se 
+
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(changeMe);
+        console.log("stopped")
+    })
+</script>
+</html>
