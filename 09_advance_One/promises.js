@@ -81,7 +81,7 @@ new Promise(function(resolve, reject){
         }
     }
 
-    // consumePromiseFive()
+    consumePromiseFive()
 
     // get all user try catch me
 
